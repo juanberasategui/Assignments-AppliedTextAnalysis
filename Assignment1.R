@@ -1,5 +1,3 @@
-require(tidytext)
-require(widyr)
 require(tidyverse)
 require(tokenizers)
 require(stopwords)
@@ -7,9 +5,9 @@ require(janeaustenr)
 require(tm)
 require(slam)
 require(quanteda)
-require(stringr)
 require(qlcMatrix)
 require(Metrics)
+
 setwd("/Users/juanberasateguigallego/Desktop/NHH Høst 2022/Applied Textual Analysis Fin/Lecture K means")
 load("firm_dataset.Rdata")
 
